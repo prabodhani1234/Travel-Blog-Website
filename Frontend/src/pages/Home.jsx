@@ -1,12 +1,15 @@
 import Header from "../components/header/Header";
+import Sidebar from "../components/sidebar/Sidebar";
 import "./home.css";
 
 
 export default function Home() {
     return (
-    <div>
+    <>
         <Header />
-        HomeScreen
-    </div>
+        <div className="home">
+          <Sidebar />
+        </div>
+      </>
     );
 }
