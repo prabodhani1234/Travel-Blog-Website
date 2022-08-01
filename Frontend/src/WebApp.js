@@ -1,8 +1,8 @@
+import TopBar from "./components/topbar/TopBar"
+
 function WebApp() {
   return (
-    <div className="Travel app">
-      Travel and Tour
-    </div>
+    <TopBar/>
   );
 }
 
